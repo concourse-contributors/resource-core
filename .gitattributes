@@ -4,6 +4,8 @@
 ##   This will handle all files NOT defined below.
 * text=auto
 
+.git* text eol=lf
+
 # Explicitly checkout files below with LF line delimiters
 # Helps with cross platform support
 *.txt   text eol=lf
@@ -13,5 +15,6 @@
 *.sum   text eol=lf
 
 LICENSE     text eol=lf
+CODEOWNERS  text eol=lf
 Makefile    text eol=lf
 Dockerfile  text eol=lf

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	_ "github.com/digitalocean/concourse-resource-library/log"
+	_ "github.com/concourse-contributors/resource-core/log"
 	. "github.com/poy/onpar/expect"
 	. "github.com/poy/onpar/matchers"
 )

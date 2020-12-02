@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	rlog "github.com/digitalocean/concourse-resource-library/log"
+	rlog "github.com/concourse-contributors/resource-core/log"
 )
 
 func TestLog(t *testing.T) {

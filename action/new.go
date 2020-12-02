@@ -4,7 +4,7 @@ import (
 	"log"
 	"os/exec"
 
-	"github.com/digitalocean/concourse-resource-library/bootstrap"
+	"github.com/concourse-contributors/resource-core/bootstrap"
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/config"
 	"github.com/spf13/cobra"

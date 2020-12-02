@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 
-	m "github.com/digitalocean/concourse-resource-library/metadata"
+	m "github.com/concourse-contributors/resource-core/metadata"
 )
 
 // Source represents the configuration for the resource

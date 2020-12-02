@@ -4,7 +4,7 @@ import (
 	"log"
 	{{- if ne .Cmd "Check" }}"os"{{ end -}}
 
-	rlog "github.com/digitalocean/concourse-resource-library/log"
+	rlog "github.com/concourse-contributors/resource-core/log"
 	resource "{{ .Module }}"
 )
 

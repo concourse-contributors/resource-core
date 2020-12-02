@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/digitalocean/concourse-resource-library/action"
+	"github.com/concourse-contributors/resource-core/action"
 )
 
 func main() {

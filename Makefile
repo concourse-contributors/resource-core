@@ -6,7 +6,7 @@ export LOG_DIRECTORY=$(dir)
 
 .PHONY: test
 test:
-	@go test --cover github.com/digitalocean/concourse-resource-library/...
+	@go test --cover github.com/concourse-contributors/resource-core/...
 
 .PHONY: get-bindata
 get-bindata:

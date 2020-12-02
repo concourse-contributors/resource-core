@@ -3,7 +3,7 @@ package github_test
 import (
 	"testing"
 
-	"github.com/digitalocean/concourse-resource-library/github"
+	"github.com/concourse-contributors/resource-core/github"
 	. "github.com/poy/onpar/expect"
 	. "github.com/poy/onpar/matchers"
 )
